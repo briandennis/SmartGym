@@ -89,7 +89,6 @@ p{
   background-color: white;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .devAuthor{
@@ -103,4 +102,13 @@ p{
   margin-left: 0;
   text-align: justify;
   font-size: 1.2em;
+}
+h2{
+  text-align: center;
+  color: #14274d;
+  margin: 0 auto;
+}
+
+#finalDevsRow{
+  padding-bottom: 5%;
 }
