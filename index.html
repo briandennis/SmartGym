@@ -4,22 +4,40 @@
     <title>Smart Gym</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="shortcut icon" href="images/smartGymFavicon.png" type="image/x-icon">
+    <link rel="icon" href="images/smartGymFavicon.png" type="image/x-icon">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <div id="leftWrapper">
-            <img src="images/smartGymLogo.png">
-            <h2 class="whiteText">Weight analytics for the Modern Gym</h2>
+    <div id="main-content">
+      <nav>
+        <a href="index.html"> Home </a>
+        <a href="#"> Team </a>
+        <a href="#"> IoT Lab </a>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="leftWrapper">
+              <img src="images/smartGymLogo.png" id='logo'>
+              <h2 class="whiteText">Fitness Tracking for the Weight Room</h2>
+              <p> <span style="color:#fc5a5d">Smart Gym</span> tracks weights and reps on various fitness equipment. All of which is displayed in a mobile application with analytics. </p>
+            </div>
+          </div>
+          <div class="col-md-6" id="right">
+            <div id="rightWrapper">
+              <div id="preview"></div>
+            </div>
           </div>
         </div>
-        <div class="col-md-6" id="right">
-          <div id="rightWrapper">
-            <div id="preview"></div>
+        <div class="row" id="devsRow">
+          <div class="col-md-6">
+            <img class="devImages" src="images/avatar.png">
           </div>
         </div>
       </div>
+      <footer>
+        Developed as part of the UW-Madison IoT Lab
+      </footer>
     </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
