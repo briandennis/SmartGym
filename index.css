@@ -76,7 +76,7 @@ p{
 }
 
 .devImages{
-  height: 150px;
+  height: 175px;
   margin: 0 auto;
   border-radius: 50%;
   border-width: 2px;
@@ -84,6 +84,23 @@ p{
   border-color: #fc5a5d;
 }
 
-#devsRow{
+.devsRow{
+  padding-top: 5%;
   background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.devAuthor{
+  color: #14274d;
+}
+.devMajor{
+  color: #fc5a5d;
+}
+.devDescription{
+  color: #14274d;
+  margin-left: 0;
+  text-align: justify;
+  font-size: 1.2em;
 }
