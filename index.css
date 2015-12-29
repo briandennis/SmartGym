@@ -159,3 +159,26 @@ p{
   padding-left: 5px;
   font-family: 'Roboto', sans-serif;
 }
+
+.devLink{
+  text-decoration: none;
+  color: #14274d;
+  font-family: 'Roboto', sans-serif;
+}
+
+.devLink:hover{
+  text-decoration: none;
+  color: #fc5a5d;
+}
+
+#githubLink{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #fc5a5d;
+}
+
+#githubLink:hover{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
