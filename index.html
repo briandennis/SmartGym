@@ -9,11 +9,15 @@
   </head>
   <body>
     <div id="main-content">
+
       <nav>
-        <a href="index.html"> Home </a>
-        <a href="#"> Team </a>
-        <a href="#"> IoT Lab </a>
+        <a href="#main-content"> Home </a>
+        <a href="#firstDevRow"> Tech </a>
+        <a href="http://www.iotlab.wisc.edu/"> Team </a>
       </nav>
+
+      <!-- main row -->
+
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
@@ -29,14 +33,120 @@
             </div>
           </div>
         </div>
-        <div class="row" id="devsRow">
-          <div class="col-md-6">
-            <img class="devImages" src="images/avatar.png">
+
+        <!-- tech -->
+        <div class="row techRow">
+          <div class="col-md-12">
+            <h2 id="techTitle"> The Tech </h2>
           </div>
         </div>
+        <div class="row techRow">
+          <div class"col-md-4">
+            <img src="images/arduino.png" height="25%">
+            <h3 class="techName"> Arduino Yun </h3>
+            <p> The device on gym equipment is an Arduino Yun coupled with an accelerometer and pressure sensor. </p>
+          </div>
+          <div class"col-md-4">
+            <img src="images/cloud.png" height="25%">
+            <h3 class="techName"> Parse </h3>
+            <p> Parse was used as the backend for storing all user data in and information collected from the Arduino. </p>
+          </div>
+          <div class"col-md-4">
+            <img src="images/ionic.png" height="25%">
+            <h3 class="techName"> Inoic Framework </h3>
+            <p> The Ionic, a hybrid mobile application framework, was used to develop the mobile application. </p>
+          </div>
+        </div>
+
+        <!-- dev rows begin -->
+        <div class="row devsRow" id="firstDevRow">
+          <div class="col-md-12">
+            <h2 id="devsTitle"> Developed By </h2>
+          </div>
+        </div>
+        <div class="row devsRow">
+          <div class="col-md-3 col-xs-12"></div>
+          <div class="col-md-3 col-xs-12">
+            <img class="devImages" src="images/avatar.png">
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <h3 class= "devName"> Brian Dennis </h3>
+            <h4 class="devMajor"> Computer Science, Applied Mathematics</h4>
+            <p class="devDescription"> Interested in web development, Brian worked on the hybrid mobile application, website, and setting up the database.</p>
+          </div>
+          <div class="col-md-3 col-xs-12"></div>
+        </div>
       </div>
+      <div class="row devsRow">
+        <div class="col-md-3 col-sm-12"></div>
+        <div class="col-md-3 col-sm-12">
+          <h3 class= "devName"> Alex Valaitis </h3>
+          <h4 class="devMajor"> Computer Science, Economics</h4>
+          <p class="devDescription"> Alex helped develop the business strategy, pitch and product design, in addition to leading testing.</p>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <img class="devImages" src="images/alex.png">
+        </div>
+        <div class="col-md-3 col-sm-12"></div>
+      </div>
+    </div>
+    <div class="row devsRow">
+      <div class="col-md-3 col-sm-12"></div>
+      <div class="col-md-3 col-sm-12">
+        <img class="devImages" src="images/jake.png">
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <h3 class= "devName"> Jake Dexheimer</h3>
+        <h4 class="devMajor"> Computer Science, Computer Engineering</h4>
+        <p class="devDescription">Aside from producing all of the design needed, Jake worked on the mobile application, as well as the back-end.</p>
+      </div>
+      <div class="col-md-3 col-sm-12"></div>
+    </div>
+  </div>
+  <div class="row devsRow">
+    <div class="col-md-3 col-sm-12"></div>
+    <div class="col-md-3 col-sm-12">
+        <h3 class= "devName"> Xiao He</h3>
+        <h4 class="devMajor"> Computer Science, Computer Engineering</h4>
+        <p class="devDescription">Xiao helped mount the sensors as well as develop code for the Arduino and mobile application. </p>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <img class="devImages" src="images/xaio.jpg">
+      </div>
+      <div class="col-md-3 col-sm-12"></div>
+    </div>
+  </div>
+  <div class="row devsRow">
+    <div class="col-md-3 col-sm-12"></div>
+    <div class="col-md-3 col-sm-12">
+      <img class="devImages" src="images/christian.png">
+    </div>
+    <div class="col-md-3 col-sm-12">
+      <h3 class= "devName"> Christian Krueger </h3>
+      <h4 class="devMajor"> Computer Engineering</h4>
+      <p class="devDescription">The main Arduino dev, Christian wrote most of the programming for the microcontroller and calibrated the device.</p>
+    </div>
+    <div class="col-md-3 col-sm-12"></div>
+  </div>
+</div>
+<div class="row devsRow" id="finalDevsRow">
+  <div class="col-md-3 col-sm-12"></div>
+  <div class="col-md-3 col-sm-12">
+      <h3 class= "devName"> Jake Bergal</h3>
+      <h4 class="devMajor"> Computer Engineering</h4>
+      <p class="devDescription">Jake assisted in the development of the Arduino code and sensor manipulation.</p>
+    </div>
+    <div class="col-md-3 col-sm-12">
+      <img class="devImages" src="images/jakeB.jpg">
+    </div>
+    <div class="col-md-3 col-sm-12"></div>
+  </div>
+</div>
+
+  <!-- footer -->
+
       <footer>
-        Developed as part of the UW-Madison IoT Lab
+        Developed as part of the <a href="http://www.iotlab.wisc.edu/" id="iotLabLink">UW-Madison IoT Lab</a>
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
