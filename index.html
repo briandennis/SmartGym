@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Smart Gym</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -23,10 +24,12 @@
         <div class="row">
           <div class="col-md-6">
             <div id="leftWrapper">
-              <img src="images/smartGymLogo.png" id='logo'>
+              <div class='imageWrapper'>
+                <img src="images/smartGymLogo.png" id='logo'>
+              </div>
               <h2 class="whiteText">Fitness Tracking for the Weight Room</h2>
               <p> <span style="color:#fc5a5d">Smart Gym</span> tracks weights and reps on various fitness equipment. All of which is displayed in a mobile application with analytics. </p>
-              <p> Check it out at<a href="https://github.com/jakedex/weight-your-turn" id='githubLink'><span style="color:#fc5a5d; padding-left: 6px;">Github</span><img src="images/octoCat.png" height="40px" style="padding-left: 3px; padding-bottom: 5px;"/></a></p>
+              <p> Check it out on <a href="https://github.com/jakedex/weight-your-turn" id='githubLink'>Github <i class="fa fa-github"></i></a></p>
             </div>
           </div>
           <div class="col-md-6" id="right">
@@ -51,7 +54,7 @@
           <div class"col-md-4">
             <img src="images/cloud.png" height="25%">
             <h3 class="techName"> Parse </h3>
-            <p> Parse was used as the backend for storing all user data in and information collected from the Arduino. </p>
+            <p> Parse was used as the backend for storing all user data as well as information collected from the Arduino. </p>
           </div>
           <div class"col-md-4">
             <img src="images/ionic.png" height="25%">
@@ -151,4 +154,5 @@
   <script src="biomp.js"></script>
   <script src="main.js"></script>
   </body>
+
 </html>
